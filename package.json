@@ -1,0 +1,14 @@
+{
+  "name": "mysite",
+  "version": "1.0.0",
+  "description": "1 week site challenge",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite"
+  },
+  "author": "sergio",
+  "license": "ISC",
+  "dependencies": {
+    "vite": "^6.0.3"
+  }
+}
