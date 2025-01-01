@@ -6,7 +6,10 @@ body {
     justify-content: center;
     flex-direction: column;
 }
-
+.cooltext {
+    font-style: light;
+    font-size: 25px;
+}
 .midpart {
     position: absolute;
     top: 50%;
@@ -15,7 +18,50 @@ body {
     line-height: 1.6;
     text-align: justify;
     margin: auto;
+}
+.history {
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    max-width: 400px;
+    line-height: 1.6;
+    text-align: justify;
+    margin: auto;
 
+}
+.card-container {
+    perspective: 1000px;
+    padding: 20px;
+}
+.work-card{
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s, ease;
+    width: 100%;
+    max-width: 400px;
+    text-align: left;
 
-
+}
+.work-card__link:hover .work-card{
+    transform: translateY(-5px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.work-card:hover{
+    transform: (scale(1.05));
+}
+.work-card__title{
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+.work-card__description{
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.work-card__link{
+    text-decoration: none;
+    color: inherit;
+    display: block;
 }
